@@ -1,0 +1,26 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+body,html{
+  height: 100%;
+  margin: 0
+}
+
+ol, ul, dl {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nuxt-link-active{
+  color:salmon;
+}
