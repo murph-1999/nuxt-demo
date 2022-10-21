@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-17 17:50:46
- * @LastEditTime: 2022-10-21 17:03:54
+ * @LastEditTime: 2022-10-21 18:06:07
 -->
 <template>
   <nav class="navbar">
@@ -23,15 +23,7 @@
           <nuxt-link class="nav-link" to="/list" exact> <img src="~/assets/img/1.png" class="nav-logo" />
             <span>List</span>
           </nuxt-link>
-          <template>
-            <div class="nav-submenu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </template>
+
         </li>
         <li class="nav-item">
           <nuxt-link class="nav-link" to="/about" exact> <img src="~/assets/img/3.png" class="nav-logo" />
