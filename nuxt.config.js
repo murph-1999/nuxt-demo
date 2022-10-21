@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-09 13:40:23
- * @LastEditTime: 2022-10-20 17:31:01
+ * @LastEditTime: 2022-10-21 14:47:16
  */
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
