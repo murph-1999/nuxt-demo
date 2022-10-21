@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-17 17:50:46
- * @LastEditTime: 2022-10-21 16:36:57
+ * @LastEditTime: 2022-10-21 16:57:36
 -->
 <template>
   <nav class="navbar">
@@ -45,15 +45,7 @@
           <nuxt-link class="nav-link" to="/about" exact> <img src="~/assets/img/3.png" class="nav-logo" />
             <span>About</span>
           </nuxt-link>
-          <template>
-            <div class="nav-submenu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </template>
+
         </li>
       </ul>
     </div>
