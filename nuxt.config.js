@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-09 13:40:23
- * @LastEditTime: 2022-10-21 14:47:16
+ * @LastEditTime: 2022-10-21 18:17:43
  */
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -60,7 +60,7 @@ export default {
 
   // 配置应用的服务器实例变量
   server: {
-    // 注意localhost只能本机访问，生产环境需要使用0.0.0.0
+    // 注意localhost只能本机访问，生产环境需要使用 0.0.0.0
     host: '0.0.0.0',
     port: 3000,
   },
