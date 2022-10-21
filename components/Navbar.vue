@@ -3,12 +3,12 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-17 17:50:46
- * @LastEditTime: 2022-10-18 16:55:33
+ * @LastEditTime: 2022-10-21 16:36:57
 -->
 <template>
   <nav class="navbar">
     <div class="container">
-      <nuxt-link class="nav-link " to="/" exact><img src="~/assets/img/2.png" class="nav-logo" />
+      <nuxt-link class="nav-link" to="/" exact><img src="~/assets/img/2.png" class="nav-logo" />
       </nuxt-link>
 
       <ul class="nav pull-xs-right">
@@ -29,7 +29,7 @@
         </li>
         <li class="nav-item">
           <nuxt-link class="nav-link" to="/list" exact> <img src="~/assets/img/1.png" class="nav-logo" />
-            <span>Home</span>
+            <span>List</span>
           </nuxt-link>
           <template>
             <div class="nav-submenu">
@@ -43,7 +43,7 @@
         </li>
         <li class="nav-item">
           <nuxt-link class="nav-link" to="/about" exact> <img src="~/assets/img/3.png" class="nav-logo" />
-            <span>Home</span>
+            <span>About</span>
           </nuxt-link>
           <template>
             <div class="nav-submenu">
