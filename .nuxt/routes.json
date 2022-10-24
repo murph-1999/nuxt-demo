@@ -1,0 +1,46 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_07ede397"
+  },
+  {
+    "name": "list",
+    "path": "/list",
+    "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/list.vue",
+    "chunkName": "pages/list",
+    "children": [
+      {
+        "name": "list-doing",
+        "path": "doing",
+        "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/list/doing.vue",
+        "chunkName": "pages/list/doing",
+        "_name": "_37c12dac"
+      },
+      {
+        "name": "list-todo",
+        "path": "todo",
+        "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/list/todo.vue",
+        "chunkName": "pages/list/todo",
+        "_name": "_f05f45be"
+      }
+    ],
+    "_name": "_29af0204"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_27a5be5c"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/murphy/Desktop/project/nuxt-demo/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_25ef1d14"
+  }
+]
