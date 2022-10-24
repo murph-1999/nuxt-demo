@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-10-17 17:50:46
- * @LastEditTime: 2022-10-21 18:06:07
+ * @LastEditTime: 2022-10-24 14:59:31
 -->
 <template>
   <nav class="navbar">
@@ -22,6 +22,12 @@
         <li class="nav-item">
           <nuxt-link class="nav-link" to="/list" exact> <img src="~/assets/img/1.png" class="nav-logo" />
             <span>List</span>
+          </nuxt-link>
+
+        </li>
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/about" exact> <img src="~/assets/img/3.png" class="nav-logo" />
+            <span>About</span>
           </nuxt-link>
 
         </li>
