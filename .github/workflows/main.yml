@@ -58,5 +58,5 @@ jobs:
           cd /home/nuxt
           wget https://github.com/murph-1999/nuxt-demo/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install --production
+          sudo /usr/local/src/node-v16.18.0-linux-x64/bin/npm install --omit=dev
           pm2 reload pm2.config.json
